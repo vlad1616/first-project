@@ -246,7 +246,7 @@ font-weight: 600;
 }
 .kaufman__triangle{
   position: absolute;
-  background-image: url(styles/images/kaufman-triangle.svg);
+  background-image: url(images/kaufman-triangle.svg);
   width: 877px;
   height: 877px;
   top: 0px;
