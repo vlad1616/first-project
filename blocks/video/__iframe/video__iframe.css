@@ -1,0 +1,13 @@
+.video__iframe{
+    height: 316px;
+    width: 516px;
+    border: none;
+    object-fit: cover;
+    object-position: 50px top;
+  }
+  .video__iframe:first-child{
+    padding-left: 0px;
+  }
+  .video__iframe:last-child{
+    padding-left: 20px;
+  }
