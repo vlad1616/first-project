@@ -11,6 +11,7 @@
 @import url("../blocks/header/__subtitle/header__subtitle.css");
 @import url("../blocks/header/__main-illustration/header__main-illustration.css");
 @import url("../blocks/header/__square-pic/header__square-pic.css");
+@import url("../blocks/rotation/rotation.css");
 /*description*/
 @import url("../blocks/description/description.css");
 /*two-columns*/
@@ -54,6 +55,7 @@
 @import url("../blocks/table/table.css");
 @import url("../blocks/table/__cell/table__cell.css");
 @import url("../blocks/table/__text/table__text.css");
+@import url("../blocks/table/__heading/table__heading.css");
 /*feynman*/
 @import url("../blocks/feynman/feynman.css");
 @import url("../blocks/feynman/__title/feynman__title.css");
@@ -64,10 +66,11 @@
 @import url("../blocks/kaufman/__triangle/kaufman__triangle.css");
 @import url("../blocks/kaufman/__title/_theme/section-title_theme_dark.css");
 @import url("../blocks/kaufman/__title/_theme/section-subtitle_theme_dark.css");
-@import url("../blocks/kaufman/_theme/table_theme_dark.css");
-@import url("../blocks/kaufman/_theme/__cell/table__cell_theme_dark.css");
-@import url("../blocks/kaufman/_theme/__heading/table__heading_theme_dark.css");
-@import url("../blocks/kaufman/_theme/__text/table__text_theme_dark.css");
+@import url("../blocks/rotation/rotation.css");
+@import url("../blocks/table/_theme/table_theme_dark.css");
+@import url("../blocks/table/__cell/_theme/table__cell_theme_dark.css");
+@import url("../blocks/table/__heading/_theme/table__heading_theme_dark.css");
+@import url("../blocks/table/__text/_theme/table__text_theme_dark.css");
 /*footer*/
 @import url("../blocks/footer/footer.css");
 @import url("../blocks/footer/__columns/footer__columns.css");
@@ -80,7 +83,14 @@
 @import url("../blocks/footer/__column_content_social/footer__column_content_social.css");
 @import url("../blocks/footer/__social-icon/footer__social-icon.css");
 /*animation*/
-@import url("../blocks/animation/animation.css");
 /*section*/
-@import url("../blocks/digits/section-title/section-title.css");
-@import url("../blocks/digits/section-subtitle/section-subtitle.css");
+@import url("../blocks/section-title/section-title.css");
+@import url("../blocks/section-subtitle/section-subtitle.css");
+@keyframes rotation{
+    from{
+    transform: rotate(0deg);
+    }
+    to{
+      transform: rotate(360deg);
+    }
+  }
